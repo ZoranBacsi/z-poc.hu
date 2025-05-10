@@ -1,0 +1,15 @@
+.hero-bg {
+    background-image: url('/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sticky-nav {
+    transition: all 0.3s ease-in-out;
+}
+
+.sticky-nav.sticky {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
